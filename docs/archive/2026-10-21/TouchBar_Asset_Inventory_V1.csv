@@ -1,0 +1,22 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: TouchBar_Asset_Inventory_V1.csv>index,ID,Category,Asset,Source art grid,Target physical px,Format,Animation/States,Design notes
+0,CHR-01,Character,Cat,20x11,80x44,PNG RGBA,Idle / Walk / Jump / Sleep / Happy / Surprised,Ancho bottom-center; per-frame alignment
+1,CHR-02,Character,Puffer Fish,20x11,80x44,PNG RGBA,Idle / Swim / Puff / Sleep / Happy,Water-style visual; animation-defined anchors
+2,CHR-03,Character,Ghost,20x11,80x44,PNG RGBA,Idle / Float / Dash / Sleep / Shy,Opacity allowed; preserve silhouette
+3,CHR-04,Character,Dragon,24x12,96x48,PNG RGBA,Idle / Walk / Fly / Fire / Sleep,Large; ensure jump/fire fits available height
+4,CHR-05,Character,Plant Buddy,16x10,64x40,PNG RGBA,Idle / Sway / Grow / Sleep / Happy,Small stable pivot
+5,TER-01,Terrain,Aquarium,32x15 tile,128x60 tile,PNG RGBA,Static / Bubbles loop,Segment/repeat X; avoid stretch
+6,TER-02,Terrain,Night Sky,32x15 tile,128x60 tile,PNG RGBA,Static / Star twinkle,Two or three parallax layers
+7,TER-03,Terrain,Grass,32x15 tile,128x60 tile,PNG RGBA,Static / Grass sway,Terrain collision baseline metadata
+8,TER-04,Terrain,Cozy Room,32x15 tile,128x60 tile,PNG RGBA,Static / Fireplace flicker,Decor separate layer
+9,COL-01,Collectible,Coin,8x8,32x32,PNG RGBA,Idle / Collect,Collision and tap both optional
+10,COL-02,Collectible,Star,8x8,32x32,PNG RGBA,Twinkle / Collect,Score effect separate
+11,COL-03,Collectible,Crystal,8x8,32x32,PNG RGBA,Glow / Collect,No bright bloom over labels
+12,INT-01,Interactive Item,Food,12x10,48x40,PNG RGBA,Idle / Spawn / Eat,Separate per species variant
+13,INT-02,Interactive Item,Treasure Chest,12x10,48x40,PNG RGBA,Closed / Open / Empty,Hit box width >= 32pt
+14,INT-03,Interactive Item,Portal,12x10,48x40,PNG RGBA,Closed / Active / Trigger,Can launch special animation
+15,UI-01,UI,Label/Badge,,Retina @2x,Native AppKit,Show / Hide / Value change,11-12pt; max 1 line
+16,UI-02,UI,Buttons,,72x52 to 88x56,Native/AppKit + PNG icons,Default / Pressed / Disabled,36-44pt horizontal hit region
+17,FX-01,Effect,Spark / Heart,4x4 - 8x8,16x16 - 32x32,PNG RGBA,Burst / Fade,"Separate layer, use pooling"
+18,FX-02,Effect,Pickup Flash,4x4 - 8x8,16x16 - 32x32,PNG RGBA,6-8 frames,Short burst; <= 0.5s
+19,FX-03,Effect,Bubble / Flame,4x4 - 8x8,16x16 - 32x32,PNG RGBA,Loop or burst,Colors remain readable

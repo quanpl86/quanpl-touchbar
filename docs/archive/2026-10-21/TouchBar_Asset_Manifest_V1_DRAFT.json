@@ -1,0 +1,493 @@
+{
+  "specVersion": "1.0.0-draft",
+  "project": "TouchBar Character Studio",
+  "origin": {
+    "url": "https://github.com/Heaaaaaaaa/TouchBar-Pet",
+    "branch": "main",
+    "notes": "Reference project; verify reuse permissions before republishing modified source."
+  },
+  "display": {
+    "referencePhysicalPixels": {
+      "width": 2170,
+      "height": 60
+    },
+    "referencePoints": {
+      "width": 1085,
+      "height": 30
+    },
+    "pointsToPhysicalPixels": 2,
+    "authoringArtPixelToPhysicalPixels": 4,
+    "artPixelToPoint": 2,
+    "usableWidthRule": "NEVER hardcode: measure hosted NSView.bounds.width; macOS Control Strip and Escape affect space.",
+    "drawHeightPoints": 30,
+    "recommendedSafeMarginPoints": {
+      "top": 2,
+      "bottom": 2
+    },
+    "coordinateOrigin": "topLeft; screen-right +X; viewport independent from physical strip",
+    "interaction": "X-axis primary; Y not relied upon for game decisions",
+    "colorSpace": "sRGB",
+    "assetFormat": "PNG RGBA transparent; sRGB; nearest-neighbor, no interpolation"
+  },
+  "legacyAudit": {
+    "source": "TouchBar-Pet main 2026-10-21",
+    "sceneIntrinsicSizePoints": [
+      640,
+      30
+    ],
+    "trackHeightPoints": 28,
+    "trackYPoints": 1,
+    "trackWidthFormula": "min(max(340, viewWidth-4), 580)",
+    "hudStatsPoints": [
+      122,
+      22
+    ],
+    "hudStatsYPoints": 4,
+    "motionWidthFormula": "max(190, trackWidth-140)",
+    "interactionZones": 12,
+    "updateTimerHz": 18,
+    "currentSpritePoses": 15,
+    "currentBackgrounds": 4,
+    "currentFoodAssets": 5,
+    "knownProblem": "For view width below 344 pt track min 340 may extend beyond bounds; adapt dynamically and clip.",
+    "spriteAnimation": "Fixed poses with procedural position/scale/rotation; not complete frame-sequence animation system.",
+    "persistentPresentation": "Private macOS API bridge; platform risk."
+  },
+  "layoutProfiles": {
+    "compat640": {
+      "targetViewPt": [
+        640,
+        30
+      ],
+      "drawTrackPt": [
+        580,
+        28
+      ],
+      "motionPt": [
+        440,
+        28
+      ],
+      "statsPt": [
+        122,
+        22
+      ],
+      "status": "Current source calculation at its intrinsic width; actual hosted size may differ"
+    },
+    "compact": {
+      "minSuggestedWidthPt": 250,
+      "allowableElements": [
+        "character",
+        "ground",
+        "oneIcon"
+      ],
+      "hud": "hidden; use menu bar"
+    },
+    "standard": {
+      "minSuggestedWidthPt": 400,
+      "allowableElements": [
+        "character",
+        "terrain",
+        "one collectible",
+        "compact HUD"
+      ],
+      "hud": "optional"
+    },
+    "expanded": {
+      "minSuggestedWidthPt": 600,
+      "allowableElements": [
+        "character",
+        "terrain",
+        "items",
+        "effects",
+        "compact HUD"
+      ],
+      "hud": "optional overlay"
+    },
+    "fullPreview": {
+      "targetPhysicalPx": [
+        2170,
+        60
+      ],
+      "status": "Preview-only until actual usable area is known"
+    }
+  },
+  "artSizes": {
+    "characterSmall": {
+      "artPx": [
+        16,
+        10
+      ],
+      "exportPx": [
+        64,
+        40
+      ],
+      "renderPt": [
+        32,
+        20
+      ]
+    },
+    "characterStandard": {
+      "artPx": [
+        20,
+        11
+      ],
+      "exportPx": [
+        80,
+        44
+      ],
+      "renderPt": [
+        40,
+        22
+      ]
+    },
+    "characterLarge": {
+      "artPx": [
+        24,
+        12
+      ],
+      "exportPx": [
+        96,
+        48
+      ],
+      "renderPt": [
+        48,
+        24
+      ]
+    },
+    "collectibleSmall": {
+      "artPx": [
+        6,
+        6
+      ],
+      "exportPx": [
+        24,
+        24
+      ],
+      "renderPt": [
+        12,
+        12
+      ]
+    },
+    "collectibleStandard": {
+      "artPx": [
+        8,
+        8
+      ],
+      "exportPx": [
+        32,
+        32
+      ],
+      "renderPt": [
+        16,
+        16
+      ]
+    },
+    "interactiveObject": {
+      "artPx": [
+        12,
+        10
+      ],
+      "exportPx": [
+        48,
+        40
+      ],
+      "renderPt": [
+        24,
+        20
+      ]
+    },
+    "terrainTile": {
+      "artPx": [
+        32,
+        15
+      ],
+      "exportPx": [
+        128,
+        60
+      ],
+      "renderPt": [
+        64,
+        30
+      ]
+    },
+    "particleSmall": {
+      "artPx": [
+        4,
+        4
+      ],
+      "exportPx": [
+        16,
+        16
+      ],
+      "renderPt": [
+        8,
+        8
+      ]
+    },
+    "particleLarge": {
+      "artPx": [
+        8,
+        8
+      ],
+      "exportPx": [
+        32,
+        32
+      ],
+      "renderPt": [
+        16,
+        16
+      ]
+    }
+  },
+  "uiSizesPoints": {
+    "compactButton": {
+      "hitBox": [
+        36,
+        26
+      ],
+      "visibleIcon": [
+        16,
+        20
+      ]
+    },
+    "preferredButton": {
+      "hitBox": [
+        44,
+        28
+      ],
+      "visibleIcon": [
+        16,
+        20
+      ]
+    },
+    "statBadge": {
+      "size": [
+        "variable 50-122",
+        20
+      ]
+    },
+    "popupLabel": {
+      "size": [
+        "variable <= 180",
+        20
+      ]
+    },
+    "fontPt": {
+      "body": [
+        11,
+        12
+      ],
+      "compact": [
+        10,
+        11
+      ],
+      "note": "Avoid sizes below macOS general guidance 10pt for essential text"
+    },
+    "interactiveObjectHitboxMinHorizontalPt": 32,
+    "targetTapHorizontalPt": 40,
+    "note": "30pt hardware height prevents enforcing 44x44pt; reserve horizontal tolerance and test real hardware."
+  },
+  "renderLayers": [
+    "0-background",
+    "1-parallax",
+    "2-terrain",
+    "3-rear-objects",
+    "4-collectibles",
+    "5-characters",
+    "6-foreground-objects",
+    "7-effects",
+    "8-hud",
+    "9-interaction-hit-regions"
+  ],
+  "animationRecommendations": {
+    "idle": {
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "priority": 0
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 10,
+      "loop": true,
+      "priority": 1
+    },
+    "run": {
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "priority": 1
+    },
+    "jump": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "priority": 3
+    },
+    "sleep": {
+      "frames": 4,
+      "fps": 4,
+      "loop": true,
+      "priority": 1
+    },
+    "happy": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "priority": 4
+    },
+    "surprised": {
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "priority": 4
+    },
+    "hurt": {
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "priority": 5
+    }
+  },
+  "interactionProposal": {
+    "tap": "trigger happy/pet",
+    "doubleTap": "trigger special",
+    "longPressMs": 500,
+    "swipeMinHorizontalPt": 30,
+    "drag": "optional X-only tracking",
+    "collision": "model virtual Y if needed; physical gesture recognizers primarily provide meaningful X",
+    "priority": "UI > dragged object > interactive item > collectible > character > terrain"
+  },
+  "sampleCharacter": {
+    "id": "cat_orange",
+    "displayName": "Orange Cat",
+    "assetVersion": "1.0",
+    "renderSizePhysicalPx": [
+      80,
+      44
+    ],
+    "anchorNormalized": [
+      0.5,
+      1.0
+    ],
+    "defaultAnimation": "idle",
+    "renderLayer": 5,
+    "animations": {
+      "idle": {
+        "frames": 6,
+        "fps": 6,
+        "loop": true,
+        "sheet": "characters/cat_orange/idle.png",
+        "layout": "horizontal",
+        "framePx": [
+          80,
+          44
+        ]
+      },
+      "walk": {
+        "frames": 8,
+        "fps": 10,
+        "loop": true,
+        "sheet": "characters/cat_orange/walk.png",
+        "layout": "horizontal",
+        "framePx": [
+          80,
+          44
+        ]
+      },
+      "happy": {
+        "frames": 6,
+        "fps": 12,
+        "loop": false,
+        "sheet": "characters/cat_orange/happy.png",
+        "layout": "horizontal",
+        "framePx": [
+          80,
+          44
+        ]
+      }
+    },
+    "touchHitboxPt": {
+      "width": 42,
+      "height": 28
+    },
+    "interactions": {
+      "tap": "happy",
+      "doubleTap": "jump",
+      "longPress": "sleep"
+    },
+    "notes": "Example manifest invented for redesign; not the upstream repo format."
+  },
+  "sampleTerrain": {
+    "id": "grass_day",
+    "tilePx": [
+      128,
+      60
+    ],
+    "repeatX": true,
+    "anchor": "bottom",
+    "collisionGroundTopPx": 44,
+    "parallaxLayers": [
+      "sky",
+      "distant",
+      "ground",
+      "decorations"
+    ],
+    "note": "Adapt/crop to actual scene height 56px in legacy track."
+  },
+  "sampleCollectible": {
+    "id": "star_yellow",
+    "atlasFramePhysicalPx": [
+      32,
+      32
+    ],
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ],
+    "collisionPt": [
+      14,
+      14
+    ],
+    "touchHitHorizontalPt": 34,
+    "effects": [
+      "collect-flash",
+      "score-popup"
+    ],
+    "collectionTriggers": [
+      "character-overlap",
+      "tap"
+    ]
+  },
+  "sampleInteractable": {
+    "id": "food_box",
+    "atlasFramePhysicalPx": [
+      48,
+      40
+    ],
+    "anchorNormalized": [
+      0.5,
+      1
+    ],
+    "touchHitHorizontalPt": 40,
+    "onTap": "open",
+    "onLongPress": "inspect",
+    "states": [
+      "closed",
+      "open",
+      "disabled"
+    ]
+  },
+  "qa": [
+    "Every sheet has uniform frame dimensions and transparent RGBA alpha; no accidental background.",
+    "No linear image scaling on pixel sprites. Integer scales in device pixels; alpha/transparent edges audited.",
+    "Pivot and baseline remain fixed frame-to-frame to avoid jitter.",
+    "Characters fit 30pt height including peak of jump/sparkles; no essential pixels clipped.",
+    "Hit regions are tested with real finger; overlapping objects have priority.",
+    "Never use screen physical width as usable app content width; test 250/340/500/640+pt.",
+    "Text remains legible on hardware and accessible in Settings window.",
+    "AppKit view `bounds` and `convertToBacking` logged on target Mac.",
+    "Private persistent Touch Bar path checked against target macOS; fallback public NSTouchBar works.",
+    "Licence/provenance checked for all upstream code and generated/public assets."
+  ]
+}
