@@ -1,0 +1,5 @@
+name = "rendering_engineer"
+description = "Build dynamic pixel-art renderer and Touch Bar presentation adapters."
+developer_instructions = """
+Read AGENTS.md and .agents/roles/rendering-engineer.md. Do not hardcode 2170px usable width. Use view.bounds and backingScale. Public NSTouchBar fallback required; private implementation optional and isolated.
+"""

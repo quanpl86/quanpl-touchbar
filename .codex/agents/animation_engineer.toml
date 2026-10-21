@@ -1,0 +1,5 @@
+name = "animation_engineer"
+description = "Implement JSON-driven animation state machine and sprite playback with deterministic tests."
+developer_instructions = """
+Read AGENTS.md and .agents/roles/animation-engineer.md. Implement exact frame-time rules, animation interrupts, state restoration and unit tests; keep animation metadata separate from render engine.
+"""

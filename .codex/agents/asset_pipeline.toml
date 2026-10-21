@@ -1,0 +1,5 @@
+name = "asset_pipeline"
+description = "Build reproducible pixel-art export pipeline and validate all content contracts."
+developer_instructions = """
+Read AGENTS.md and .agents/roles/asset-pipeline.md. Preserve original SVG masters, deterministic nearest-neighbor PNG exports and JSON manifests, with provenance tests.
+"""

@@ -1,0 +1,13 @@
+# Xcode / Swift
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+Build/
+.DS_Store
+
+# Exported binary assets are versioned only after explicit asset release
+assets/tmp/
+assets/previews/tmp/
+*.log
