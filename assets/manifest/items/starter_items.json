@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "items": [
+    {
+      "id": "gold_coin",
+      "kind": "collectible",
+      "frames": 4,
+      "fps": 6,
+      "canvasArtPx": [
+        8,
+        8
+      ],
+      "hitWidthPt": 22,
+      "action": "collect"
+    },
+    {
+      "id": "treasure_chest",
+      "kind": "interactive",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "canvasArtPx": [
+        12,
+        10
+      ],
+      "hitWidthPt": 28,
+      "action": "open"
+    }
+  ],
+  "provenance": {
+    "creator": "QuanPL TouchBar original pixel art",
+    "origin": "new-work-not-derived-from-TouchBar-Pet",
+    "license": "owner-decision-pending",
+    "date": "2026-10-21"
+  }
+}

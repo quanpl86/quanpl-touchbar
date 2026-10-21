@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "canvasArtPx",
+    "animations",
+    "anchor",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "canvasArtPx": {
+      "type": "object"
+    },
+    "animations": {
+      "type": "object"
+    },
+    "anchor": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "id": "starter_grass",
+  "tile": "grass_tile",
+  "tileArtPx": [
+    32,
+    15
+  ],
+  "repeatX": true,
+  "scrollMode": "tile-no-stretch",
+  "provenance": {
+    "creator": "QuanPL TouchBar original pixel art",
+    "origin": "new-work-not-derived-from-TouchBar-Pet",
+    "license": "owner-decision-pending",
+    "date": "2026-10-21"
+  }
+}

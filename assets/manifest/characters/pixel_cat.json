@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "id": "pixel_cat",
+  "canvasArtPx": {
+    "width": 20,
+    "height": 11
+  },
+  "exportScale": 4,
+  "anchor": {
+    "x": 0.5,
+    "y": 1
+  },
+  "defaultAnimation": "idle",
+  "animations": {
+    "idle": {
+      "fps": 5,
+      "loop": true,
+      "frames": [
+        "assets/export/characters/pixel_cat/idle--f00.png",
+        "assets/export/characters/pixel_cat/idle--f01.png",
+        "assets/export/characters/pixel_cat/idle--f02.png",
+        "assets/export/characters/pixel_cat/idle--f03.png"
+      ]
+    },
+    "walk": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "assets/export/characters/pixel_cat/walk--f00.png",
+        "assets/export/characters/pixel_cat/walk--f01.png",
+        "assets/export/characters/pixel_cat/walk--f02.png",
+        "assets/export/characters/pixel_cat/walk--f03.png",
+        "assets/export/characters/pixel_cat/walk--f04.png",
+        "assets/export/characters/pixel_cat/walk--f05.png"
+      ]
+    },
+    "happy": {
+      "fps": 10,
+      "loop": false,
+      "frames": [
+        "assets/export/characters/pixel_cat/happy--f00.png",
+        "assets/export/characters/pixel_cat/happy--f01.png",
+        "assets/export/characters/pixel_cat/happy--f02.png",
+        "assets/export/characters/pixel_cat/happy--f03.png",
+        "assets/export/characters/pixel_cat/happy--f04.png"
+      ]
+    },
+    "sleep": {
+      "fps": 4,
+      "loop": true,
+      "frames": [
+        "assets/export/characters/pixel_cat/sleep--f00.png",
+        "assets/export/characters/pixel_cat/sleep--f01.png",
+        "assets/export/characters/pixel_cat/sleep--f02.png",
+        "assets/export/characters/pixel_cat/sleep--f03.png"
+      ]
+    }
+  },
+  "interactions": {
+    "tap": {
+      "play": "happy",
+      "resumePrevious": true
+    },
+    "longPress": {
+      "play": "sleep"
+    }
+  },
+  "provenance": {
+    "creator": "QuanPL TouchBar original pixel art",
+    "origin": "new-work-not-derived-from-TouchBar-Pet",
+    "license": "owner-decision-pending",
+    "date": "2026-10-21"
+  }
+}

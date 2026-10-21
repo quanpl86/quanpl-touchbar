@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "1.0",
+  "assetFrames": 31,
+  "entries": [
+    {
+      "id": "pixel_cat",
+      "state": "idle",
+      "frame": 0,
+      "source": "assets/source/characters/pixel_cat/idle--f00.svg",
+      "target": "assets/export/characters/pixel_cat/idle--f00.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "idle",
+      "frame": 1,
+      "source": "assets/source/characters/pixel_cat/idle--f01.svg",
+      "target": "assets/export/characters/pixel_cat/idle--f01.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "idle",
+      "frame": 2,
+      "source": "assets/source/characters/pixel_cat/idle--f02.svg",
+      "target": "assets/export/characters/pixel_cat/idle--f02.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "idle",
+      "frame": 3,
+      "source": "assets/source/characters/pixel_cat/idle--f03.svg",
+      "target": "assets/export/characters/pixel_cat/idle--f03.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "walk",
+      "frame": 0,
+      "source": "assets/source/characters/pixel_cat/walk--f00.svg",
+      "target": "assets/export/characters/pixel_cat/walk--f00.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "walk",
+      "frame": 1,
+      "source": "assets/source/characters/pixel_cat/walk--f01.svg",
+      "target": "assets/export/characters/pixel_cat/walk--f01.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "walk",
+      "frame": 2,
+      "source": "assets/source/characters/pixel_cat/walk--f02.svg",
+      "target": "assets/export/characters/pixel_cat/walk--f02.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "walk",
+      "frame": 3,
+      "source": "assets/source/characters/pixel_cat/walk--f03.svg",
+      "target": "assets/export/characters/pixel_cat/walk--f03.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "walk",
+      "frame": 4,
+      "source": "assets/source/characters/pixel_cat/walk--f04.svg",
+      "target": "assets/export/characters/pixel_cat/walk--f04.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "walk",
+      "frame": 5,
+      "source": "assets/source/characters/pixel_cat/walk--f05.svg",
+      "target": "assets/export/characters/pixel_cat/walk--f05.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "happy",
+      "frame": 0,
+      "source": "assets/source/characters/pixel_cat/happy--f00.svg",
+      "target": "assets/export/characters/pixel_cat/happy--f00.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "happy",
+      "frame": 1,
+      "source": "assets/source/characters/pixel_cat/happy--f01.svg",
+      "target": "assets/export/characters/pixel_cat/happy--f01.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "happy",
+      "frame": 2,
+      "source": "assets/source/characters/pixel_cat/happy--f02.svg",
+      "target": "assets/export/characters/pixel_cat/happy--f02.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "happy",
+      "frame": 3,
+      "source": "assets/source/characters/pixel_cat/happy--f03.svg",
+      "target": "assets/export/characters/pixel_cat/happy--f03.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "happy",
+      "frame": 4,
+      "source": "assets/source/characters/pixel_cat/happy--f04.svg",
+      "target": "assets/export/characters/pixel_cat/happy--f04.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "sleep",
+      "frame": 0,
+      "source": "assets/source/characters/pixel_cat/sleep--f00.svg",
+      "target": "assets/export/characters/pixel_cat/sleep--f00.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "sleep",
+      "frame": 1,
+      "source": "assets/source/characters/pixel_cat/sleep--f01.svg",
+      "target": "assets/export/characters/pixel_cat/sleep--f01.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "sleep",
+      "frame": 2,
+      "source": "assets/source/characters/pixel_cat/sleep--f02.svg",
+      "target": "assets/export/characters/pixel_cat/sleep--f02.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "pixel_cat",
+      "state": "sleep",
+      "frame": 3,
+      "source": "assets/source/characters/pixel_cat/sleep--f03.svg",
+      "target": "assets/export/characters/pixel_cat/sleep--f03.png",
+      "logicalArtPx": [
+        20,
+        11
+      ],
+      "physicalPx": [
+        80,
+        44
+      ]
+    },
+    {
+      "id": "gold_coin",
+      "state": "spin",
+      "frame": 0,
+      "source": "assets/source/collectibles/gold_coin/spin--f00.svg",
+      "target": "assets/export/collectibles/gold_coin/spin--f00.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "gold_coin",
+      "state": "spin",
+      "frame": 1,
+      "source": "assets/source/collectibles/gold_coin/spin--f01.svg",
+      "target": "assets/export/collectibles/gold_coin/spin--f01.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "gold_coin",
+      "state": "spin",
+      "frame": 2,
+      "source": "assets/source/collectibles/gold_coin/spin--f02.svg",
+      "target": "assets/export/collectibles/gold_coin/spin--f02.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "gold_coin",
+      "state": "spin",
+      "frame": 3,
+      "source": "assets/source/collectibles/gold_coin/spin--f03.svg",
+      "target": "assets/export/collectibles/gold_coin/spin--f03.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "treasure_chest",
+      "state": "closed",
+      "frame": 0,
+      "source": "assets/source/interactive/treasure_chest/closed--f00.svg",
+      "target": "assets/export/interactive/treasure_chest/closed--f00.png",
+      "logicalArtPx": [
+        12,
+        10
+      ],
+      "physicalPx": [
+        48,
+        40
+      ]
+    },
+    {
+      "id": "treasure_chest",
+      "state": "open",
+      "frame": 0,
+      "source": "assets/source/interactive/treasure_chest/open--f00.svg",
+      "target": "assets/export/interactive/treasure_chest/open--f00.png",
+      "logicalArtPx": [
+        12,
+        10
+      ],
+      "physicalPx": [
+        48,
+        40
+      ]
+    },
+    {
+      "id": "sparkle",
+      "state": "burst",
+      "frame": 0,
+      "source": "assets/source/effects/sparkle/burst--f00.svg",
+      "target": "assets/export/effects/sparkle/burst--f00.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "sparkle",
+      "state": "burst",
+      "frame": 1,
+      "source": "assets/source/effects/sparkle/burst--f01.svg",
+      "target": "assets/export/effects/sparkle/burst--f01.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "sparkle",
+      "state": "burst",
+      "frame": 2,
+      "source": "assets/source/effects/sparkle/burst--f02.svg",
+      "target": "assets/export/effects/sparkle/burst--f02.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "sparkle",
+      "state": "burst",
+      "frame": 3,
+      "source": "assets/source/effects/sparkle/burst--f03.svg",
+      "target": "assets/export/effects/sparkle/burst--f03.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "grass_tile",
+      "state": "idle",
+      "frame": 0,
+      "source": "assets/source/terrain/grass_tile/idle--f00.svg",
+      "target": "assets/export/terrain/grass_tile/idle--f00.png",
+      "logicalArtPx": [
+        32,
+        15
+      ],
+      "physicalPx": [
+        128,
+        60
+      ]
+    },
+    {
+      "id": "pause_button",
+      "state": "idle",
+      "frame": 0,
+      "source": "assets/source/ui/pause_button/idle--f00.svg",
+      "target": "assets/export/ui/pause_button/idle--f00.png",
+      "logicalArtPx": [
+        8,
+        8
+      ],
+      "physicalPx": [
+        32,
+        32
+      ]
+    }
+  ],
+  "provenance": {
+    "creator": "QuanPL TouchBar original pixel art",
+    "origin": "new-work-not-derived-from-TouchBar-Pet",
+    "license": "owner-decision-pending",
+    "date": "2026-10-21"
+  }
+}
